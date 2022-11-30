@@ -1,12 +1,14 @@
-﻿//Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.n
-Console.WriteLine("Вводим число N: ");
-int N = int.Parse(Console.ReadLine()!);
-int i = 1;
-while (i<N-2)
+﻿//  Напишите программу, которая на вход принимает два числа и выдаёт, какое число большее, а какое меньшее. 
+Console.WriteLine("введите первое число: ");
+int a = int.Parse(Console.ReadLine()!);
+Console.WriteLine("введите второе число: ");
+int b = int.Parse(Console.ReadLine()!);
+if (a>b)
 {
-    i % 2 == 1;
-    Console.WriteLine(i);
-    i++;
+    Console.WriteLine(a);
+}
+ else
+{
+Console.WriteLine(b);
 }
 
-//тут я не справился((
